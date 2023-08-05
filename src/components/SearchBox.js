@@ -13,4 +13,4 @@ const SearchBox = (props) => {
 	);
 };
 
-export default SearchBox;
+export default SearchBox; 
