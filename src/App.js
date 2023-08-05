@@ -16,7 +16,7 @@ import RemoveFavourites from './components/RemoveFavourites';
 	const [searchValue, setSearchValue] = useState('');
 
 	const getMovieRequest = async (searchValue) => {
-		const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=73d92b96`;
+		const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=73d92b96`;  
 
 		try {
 			const response = await axios.get(url);
