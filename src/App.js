@@ -21,7 +21,7 @@ import RemoveFavourites from './components/RemoveFavourites';
 		try {
 			const response = await axios.get(url);
 			if (response.data.Search) {
-				setMovies(response.data.Search);
+				setMovies(response.data.Search);  
 			}
 		} catch (error) {
 			console.error('Error fetching movies:', error);
