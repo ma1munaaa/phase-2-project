@@ -8,4 +8,4 @@ const MovieListHeading = (props) => {
 	);
 };
 
-export default MovieListHeading;
+export default MovieListHeading; 
