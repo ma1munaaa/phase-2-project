@@ -13,7 +13,7 @@ import RemoveFavourites from './components/RemoveFavourites';
 	function App() {
 	const [movies, setMovies] = useState([]);
 	const [favourites, setFavourites] = useState([]);
-	const [searchValue, setSearchValue] = useState('');
+	const [searchValue, setSearchValue] = useState('');  
 
 	const getMovieRequest = async (searchValue) => {
 		const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=73d92b96`;  
